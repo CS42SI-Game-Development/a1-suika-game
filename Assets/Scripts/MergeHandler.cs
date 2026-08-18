@@ -1,5 +1,13 @@
 using UnityEngine;
 
+//////////////////////////////////////////////////////////////////////////
+// TODO: This file works for merging logos, but it's not finished!      //
+// Write code in this file to make the logos increase in scale          //
+// depending on their stage. Stage 2 logos are larger than Stage 1      //
+// logos, and Stage 3 are the largest. Read the file to find a good     //
+// place to put your code.                                              //
+//////////////////////////////////////////////////////////////////////////
+
 // Put this script on the logo object. When two logos showing the same sprite
 // touch each other, both disappear and one bigger logo takes their place.
 public class MergeHandler : MonoBehaviour
@@ -89,6 +97,7 @@ public class MergeHandler : MonoBehaviour
     private Sprite GetUpgradedSprite()
     {
         Sprite currentSprite = GetSprite();
+        
         if (currentSprite == LevelOneSprite)
         {
             return LevelTwoSprite;
