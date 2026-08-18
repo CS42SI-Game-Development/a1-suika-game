@@ -1,0 +1,10 @@
+{
+  // Course policy: AI assistance is prohibited on this assignment (see AI-POLICY.md).
+  // Completion engines do not read the markdown policy files, so inline AI
+  // suggestions are disabled here for this workspace.
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "editor.inlineSuggest.enabled": false
+}
